@@ -1,0 +1,38 @@
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    /* padding: 25px 25px 25px 25px; */
+}
+
+.photos{
+    margin-top: 15px;
+    border: 5px solid #FFC700;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    background-color: #007F73;
+    margin-bottom: 15px;
+}
+.photos .top{
+    width: 100%;
+    height: 45px;
+}
+
+.photos h1{
+    color: #FFC700;
+    text-decoration: underline;
+    text-decoration-color:#FFF455 ;
+}
+
+.photos .bottom{
+    width: 100%;
+    height: 245px;
+}
+.photos .bottom img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    overflow: hidden;
+}
